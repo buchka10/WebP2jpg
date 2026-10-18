@@ -1,0 +1,6 @@
+{
+  "name": "WebP в JPG Конвертер",
+  "description": "Быстрая пакетная конвертация файлов изображений WebP в формат JPG прямо в браузере с сохранением приватности, настройкой качества и обработкой прозрачности.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

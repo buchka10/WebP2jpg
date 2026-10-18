@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#27272a"/>
+      <stop offset="100%" stop-color="#18181b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="512" height="512" rx="110" fill="url(#bgGrad)"/>
+  <rect x="12" y="12" width="488" height="488" rx="98" fill="none" stroke="#27272a" stroke-width="4"/>
+
+  <!-- Left Card: WebP -->
+  <rect x="76" y="116" width="160" height="210" rx="20" fill="url(#cardGrad)" stroke="#3f3f46" stroke-width="3"/>
+  <rect x="94" y="136" width="124" height="110" rx="12" fill="#121215"/>
+  <!-- Mountain graphic -->
+  <path d="M104 220 L134 180 L156 205 L180 170 L208 220 Z" fill="#38bdf8" opacity="0.8"/>
+  <circle cx="188" cy="160" r="10" fill="#fde047"/>
+  <text x="156" y="295" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="24" fill="#a1a1aa" text-anchor="middle">WEBP</text>
+
+  <!-- Right Card: JPG (Elevated / Highlighted) -->
+  <rect x="276" y="176" width="160" height="210" rx="20" fill="url(#cardGrad)" stroke="#f59e0b" stroke-width="4"/>
+  <rect x="294" y="196" width="124" height="110" rx="12" fill="#1c1917"/>
+  <!-- Mountain graphic for JPG -->
+  <path d="M304 280 L334 240 L356 265 L380 230 L408 280 Z" fill="url(#amberGrad)"/>
+  <circle cx="388" cy="220" r="10" fill="#fffbeb"/>
+  <text x="356" y="355" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="28" fill="#fbbf24" text-anchor="middle">JPG</text>
+
+  <!-- Connecting Arrow in Middle -->
+  <g transform="translate(256, 250)">
+    <circle cx="0" cy="0" r="32" fill="#f59e0b" stroke="#09090b" stroke-width="4"/>
+    <path d="M-10 -7 L6 0 L-10 7" fill="none" stroke="#09090b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Bottom Brand Pill -->
+  <text x="256" y="445" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="22" fill="#71717a" letter-spacing="3" text-anchor="middle">CONVERTER</text>
+</svg>
